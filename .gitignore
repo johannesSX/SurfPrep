@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data, FastSurfer output, logs (never commit)
+data/
+fastsurfer_subjects/
+*.nii
+*.nii.gz
+*.mgz
+*.npz
+*.pt
+*.log
+*results*.json
+dataset_mapping.json
+qc_report*.json
+data_dicts*.json
+
+# FreeSurfer license — keep it OUT of the repo
+license.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
+
+# test script
+./test_cli.txt
